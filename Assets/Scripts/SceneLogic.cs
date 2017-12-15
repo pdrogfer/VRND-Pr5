@@ -24,6 +24,17 @@ public class SceneLogic : MonoBehaviour {
 
 	public void ButtonStart () {
 
-		player.transform.position = wp1.transform.position;
+		// player.transform.position = wp1.transform.position;
+
+		presentationUI.active = false;
+
+		iTween.MoveTo (player,
+			iTween.Hash (
+				"position", wp1.transform.position,
+				"time", 4, 
+				"easetype", "linear"
+			)
+		);
+
 	}
 }
