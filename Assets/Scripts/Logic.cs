@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneLogic : MonoBehaviour {
+public class Logic : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject eventSystem;
