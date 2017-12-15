@@ -26,15 +26,20 @@ public class SceneLogic : MonoBehaviour {
 
 		// player.transform.position = wp1.transform.position;
 
-		presentationUI.active = false;
+		presentationUI.SetActive (false);
 
 		iTween.MoveTo (player,
 			iTween.Hash (
 				"position", wp1.transform.position,
-				"time", 4, 
+				"time", 2, 
 				"easetype", "linear"
 			)
 		);
+
+	}
+
+	public void WaypointMoveTo (Waypoint origin, Waypoint destination) {
+
 
 	}
 }
