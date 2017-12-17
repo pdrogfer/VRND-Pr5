@@ -124,7 +124,7 @@ MonoBehaviour:
   scale_focus_min: 0
   scale_focus_max: 0
   clip_click: {fileID: 0}
-  threshold: 0.125
+  threshold: 0.5
 --- !u!114 &114492458046952172
 MonoBehaviour:
   m_ObjectHideFlags: 1

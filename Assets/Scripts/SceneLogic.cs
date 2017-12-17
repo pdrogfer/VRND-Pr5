@@ -6,15 +6,24 @@ public class SceneLogic : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject eventSystem;
-	public GameObject presentationUI;
-	public GameObject wp0, wp1;
+	public GameObject[] panelsUI = new GameObject[6];
+	public GameObject[] playerWaypoints = new GameObject[6];
+	private GameObject presentUI;
+	private GameObject presentWaypoint;
+
+	private int positionIndex;
 
 	// Use this for initialization
 	void Start () {
 
 		player = player.transform.parent.gameObject;
 
-		player.transform.position = wp0.transform.position;
+		positionIndex = 0;
+
+		UpdatePanels ();
+
+		presentWaypoint = playerWaypoints [positionIndex];
+		player.transform.position = presentWaypoint.transform.position;
 	}
 
 	// Update is called once per frame
@@ -22,24 +31,45 @@ public class SceneLogic : MonoBehaviour {
 
 	}
 
-	public void ButtonStart () {
+	public void MoveForward () {
 
-		// player.transform.position = wp1.transform.position;
+		positionIndex = positionIndex + 1;
 
-		presentationUI.SetActive (false);
+		// UpdatePanels ();
+		MovePlayer ();
+	}
+
+	public void MoveBackward () {
+
+		positionIndex--;
+
+		// UpdatePanels ();
+		MovePlayer ();
+	}
+
+	private void MovePlayer() {
 
 		iTween.MoveTo (player,
 			iTween.Hash (
-				"position", wp1.transform.position,
-				"time", 2, 
+				"position", playerWaypoints[positionIndex].transform.position,
+				"time", 1, 
 				"easetype", "linear"
 			)
 		);
-
 	}
 
-	public void WaypointMoveTo (Waypoint origin, Waypoint destination) {
+	private void UpdatePanels() {
 
+		for (int i = 0; i < panelsUI.Length; i++) {
 
+			if(i == positionIndex) {
+
+				panelsUI [i].SetActive (true);
+			} 
+			else {
+
+				panelsUI [i].SetActive (false);
+			}
+		}
 	}
 }
