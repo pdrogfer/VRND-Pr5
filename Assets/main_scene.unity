@@ -145,7 +145,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c7b7ca10b0f0c8746a0a8d66fb10fa57, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c7b7ca10b0f0c8746a0a8d66fb10fa57, type: 3}
       propertyPath: m_LocalScale.x
@@ -191,7 +191,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 103364473}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.034486}
+  m_LocalPosition: {x: 0, y: 0, z: 12.84}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 438648809}
@@ -203,8 +203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.17, y: -3.9014206}
-  m_SizeDelta: {x: 400, y: 240}
+  m_AnchoredPosition: {x: -0.388, y: -3.9014206}
+  m_SizeDelta: {x: 320, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103364475
 MonoBehaviour:
@@ -435,19 +435,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79d412b1c73fbb44487cd094c182a9bb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0001664803
+      value: -0.00016648031
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79d412b1c73fbb44487cd094c182a9bb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.50745696
+      value: 0.507457
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79d412b1c73fbb44487cd094c182a9bb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00009806537
+      value: -0.00009806538
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79d412b1c73fbb44487cd094c182a9bb, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.86167705
+      value: 0.8616771
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79d412b1c73fbb44487cd094c182a9bb, type: 3}
       propertyPath: m_RootOrder
@@ -722,8 +722,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "5.\nOne of the biggest advantages of VR\n is that users can walk through
-    the \nhouse as if they were actually \nthere even before the building is finished.\n\n(move
+  m_Text: "5.\nOne of the biggest advantages \nof VR is that users can walk through
+    \nthe house as if they were actually \nthere even before the building\nis finished.\n(move
     to the other room)"
 --- !u!222 &321084508
 CanvasRenderer:
@@ -765,7 +765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.6, y: -93.6}
+  m_AnchoredPosition: {x: -32.6, y: -74.5}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336786756
@@ -887,7 +887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.6, y: -93.6}
+  m_AnchoredPosition: {x: 0, y: -93.6}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &350700310
@@ -984,15 +984,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 15.65
+      value: 4.248
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.86
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -14.69
+      value: -3.449
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1047,23 +1047,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.00018530685
+      value: -0.00018530687
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.28224406
+      value: -0.2822441
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000054555916
+      value: 0.00005455592
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9593426
+      value: 0.95934266
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
       propertyPath: m_LocalScale.x
@@ -1152,7 +1152,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "2. \nVR allows a more immersive visualization \nof houses, it provides
-    the feeling of \nbeing there, to see how the house \ninteracts with the environment.\n\n(buttons
+    the feeling of being \nthere, to see how the house interacts \nwith the environment.\n\n(buttons
     to change the lights)"
 --- !u!222 &389250690
 CanvasRenderer:
@@ -1428,7 +1428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &522779611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1476,7 +1476,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 522779610}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: 0.45809788, z: -0, w: 0.8889018}
   m_LocalPosition: {x: 0, y: 0, z: 5.034486}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
@@ -1486,10 +1486,10 @@ RectTransform:
   - {fileID: 1091147208}
   m_Father: {fileID: 255337272}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 54.529003, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.44, y: -3.9014173}
+  m_AnchoredPosition: {x: 5.63, y: -3.9014173}
   m_SizeDelta: {x: 400, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &522779615
@@ -1592,15 +1592,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 9.93
+      value: -1.11
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.86
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -14.69
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1687,7 +1687,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 638201906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.0000011209765}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 142016144}
@@ -1696,7 +1696,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.7, y: -93.59998}
+  m_AnchoredPosition: {x: 32.7, y: -74.49999}
   m_SizeDelta: {x: 60, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &638201908
@@ -2045,11 +2045,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 287cabf1ad0bb4b468c5fcff89feb9d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.49863
+      value: 8.4988
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 287cabf1ad0bb4b468c5fcff89feb9d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.76
+      value: -10.83
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 287cabf1ad0bb4b468c5fcff89feb9d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2102,6 +2102,10 @@ Prefab:
     - target: {fileID: 100002, guid: 287cabf1ad0bb4b468c5fcff89feb9d3, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 287cabf1ad0bb4b468c5fcff89feb9d3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.187505
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 287cabf1ad0bb4b468c5fcff89feb9d3, type: 3}
@@ -2842,8 +2846,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "4. \nVR allows realtime customization \nof the house, so customers feel
-    the \ndifferent possibilities as if they were \nalready there.\n\n(buttons to
-    set walls and roof colors)"
+    the \ndifferent possibilities as if they were \nalready there.\n(buttons to set
+    walls and roof colors)"
 --- !u!222 &1107470022
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2915,15 +2919,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 12.87
+      value: -2.0639
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.86
+      value: 1.013
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -14.69
+      value: -2.9852
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3124,7 +3128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1170328754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3233,8 +3237,8 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264278033}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.034486}
+  m_LocalRotation: {x: -0.000000023166221, y: 0.70857865, z: 0.000000018343927, w: 0.7056319}
+  m_LocalPosition: {x: 0, y: 0, z: 10.678}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1271589711}
@@ -3243,11 +3247,11 @@ RectTransform:
   - {fileID: 638201907}
   m_Father: {fileID: 255337272}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.239006, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 9.69, y: -3.9014206}
-  m_SizeDelta: {x: 400, y: 240}
+  m_AnchoredPosition: {x: 2.49, y: -2.571}
+  m_SizeDelta: {x: 360, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1264278035
 MonoBehaviour:
@@ -3575,8 +3579,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "3. \nUsers can enter the house as a real person,\nto get a true sense of
-    sizes \nand spaces distribution"
+  m_Text: "3. \nUsers can enter the house as a \nreal person,to get a true sense \nof
+    sizes and spaces distribution"
 --- !u!222 &1304865840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3659,64 +3663,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1357485953}
---- !u!1001 &1414328464
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1235160226}
-    m_Modifications:
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.7794888
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.07620498
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.37436855
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.00013128945
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.73364353
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.00014177564
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.67953455
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.3496406
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.3496404
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.3496406
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -184.385
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: fbd4bad2f7f54f34ba8a17451620803b, type: 3}
-  m_IsPrefabParent: 0
 --- !u!1001 &1425376920
 Prefab:
   m_ObjectHideFlags: 0
@@ -4168,15 +4114,15 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1552262923
 RectTransform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1552262922}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.034486}
+  m_LocalRotation: {x: -2.4085824e-16, y: 0.51787823, z: 0.00000006173589, w: 0.8554543}
+  m_LocalPosition: {x: 0, y: 0, z: 4.1400003}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1869356913}
@@ -4185,10 +4131,10 @@ RectTransform:
   - {fileID: 1826890030}
   m_Father: {fileID: 255337272}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 62.38, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.66, y: -3.9014206}
+  m_AnchoredPosition: {x: 1.48, y: -3.9014206}
   m_SizeDelta: {x: 400, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552262924
@@ -4595,7 +4541,7 @@ Transform:
   - {fileID: 1163941356}
   - {fileID: 1235160226}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1674000060
 GameObject:
@@ -4629,7 +4575,7 @@ Transform:
   - {fileID: 1134669156}
   - {fileID: 371429547}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1684588995
 Prefab:
@@ -4644,7 +4590,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.86
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -4772,15 +4718,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 6.82
+      value: -6.4
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.86
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -14.69
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5289,8 +5235,8 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1979612339}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5.034486}
+  m_LocalRotation: {x: -0, y: -0.9999999, z: -0, w: -0.00047891727}
+  m_LocalPosition: {x: 0, y: 0, z: 6.93}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children:
   - {fileID: 1780302240}
@@ -5298,11 +5244,11 @@ RectTransform:
   - {fileID: 350700309}
   m_Father: {fileID: 255337272}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180.055, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 14.15, y: -3.9014206}
-  m_SizeDelta: {x: 400, y: 240}
+  m_AnchoredPosition: {x: 5.866, y: -2.357}
+  m_SizeDelta: {x: 320, y: 240}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979612341
 MonoBehaviour:
@@ -5390,7 +5336,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.86
+      value: 1.76
       objectReference: {fileID: 0}
     - target: {fileID: 4571710959264152, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
       propertyPath: m_LocalPosition.z
