@@ -20,7 +20,7 @@ public class SceneLogic : MonoBehaviour {
 
 		positionIndex = 0;
 
-		UpdatePanels ();
+		// UpdatePanels ();
 
 		presentWaypoint = playerWaypoints [positionIndex];
 		player.transform.position = presentWaypoint.transform.position;
@@ -29,11 +29,12 @@ public class SceneLogic : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		UpdatePanels ();
 	}
 
 	public void MoveForward () {
 
-		positionIndex = positionIndex + 1;
+		positionIndex++;
 
 		// UpdatePanels ();
 		MovePlayer ();
