@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This is my own simple script based on what I have learned. It provides a simple forward/backward navigation
+// system, plus other utility functions.
 public class SceneLogic : MonoBehaviour {
 
 	public GameObject player;
@@ -20,8 +22,6 @@ public class SceneLogic : MonoBehaviour {
 
 		positionIndex = 0;
 
-		// UpdatePanels ();
-
 		presentWaypoint = playerWaypoints [positionIndex];
 		player.transform.position = presentWaypoint.transform.position;
 	}
@@ -36,7 +36,6 @@ public class SceneLogic : MonoBehaviour {
 
 		positionIndex++;
 
-		// UpdatePanels ();
 		MovePlayer ();
 	}
 
@@ -44,7 +43,6 @@ public class SceneLogic : MonoBehaviour {
 
 		positionIndex--;
 
-		// UpdatePanels ();
 		MovePlayer ();
 	}
 
@@ -53,7 +51,7 @@ public class SceneLogic : MonoBehaviour {
 		iTween.MoveTo (player,
 			iTween.Hash (
 				"position", playerWaypoints[positionIndex].transform.position,
-				"time", 1, 
+				"time", 2, 
 				"easetype", "linear"
 			)
 		);
