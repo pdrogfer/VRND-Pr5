@@ -8,10 +8,13 @@ public class SceneLogic : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject eventSystem;
+	public GameObject sunLight;
 	public GameObject[] panelsUI = new GameObject[6];
 	public GameObject[] playerWaypoints = new GameObject[6];
 	private GameObject presentUI;
 	private GameObject presentWaypoint;
+
+	private Quaternion targetRotation;
 
 	private int positionIndex;
 
@@ -24,12 +27,16 @@ public class SceneLogic : MonoBehaviour {
 
 		presentWaypoint = playerWaypoints [positionIndex];
 		player.transform.position = presentWaypoint.transform.position;
+
+		targetRotation = sunLight.transform.rotation;
 	}
 
 	// Update is called once per frame
 	void Update () {
 
 		UpdatePanels ();
+
+		UpdateLight ();
 	}
 
 	public void MoveForward () {
@@ -70,5 +77,15 @@ public class SceneLogic : MonoBehaviour {
 				panelsUI [i].SetActive (false);
 			}
 		}
+	}
+
+	private void UpdateLight() {
+
+		sunLight.transform.rotation = Quaternion.RotateTowards (sunLight.transform.rotation, targetRotation, Time.deltaTime);
+	}
+
+	public void toggleSunLight() {
+
+		targetRotation *= Quaternion.Euler (50.0f, 0.0f, 0.0f);
 	}
 }
