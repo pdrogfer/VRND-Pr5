@@ -14,6 +14,7 @@ public class SceneLogic : MonoBehaviour {
 	private GameObject presentUI;
 	private GameObject presentWaypoint;
 
+	private Quaternion currentRotation;
 	private Quaternion targetRotation;
 
 	private int positionIndex;
@@ -28,6 +29,7 @@ public class SceneLogic : MonoBehaviour {
 		presentWaypoint = playerWaypoints [positionIndex];
 		player.transform.position = presentWaypoint.transform.position;
 
+		currentRotation = sunLight.transform.rotation;
 		targetRotation = sunLight.transform.rotation;
 	}
 
@@ -81,11 +83,16 @@ public class SceneLogic : MonoBehaviour {
 
 	private void UpdateLight() {
 
-		sunLight.transform.rotation = Quaternion.RotateTowards (sunLight.transform.rotation, targetRotation, Time.deltaTime);
+		currentRotation = Quaternion.RotateTowards (sunLight.transform.rotation, targetRotation, Time.deltaTime);
+
+		sunLight.transform.rotation = currentRotation;
 	}
 
 	public void toggleSunLight() {
 
-		targetRotation *= Quaternion.Euler (50.0f, 0.0f, 0.0f);
+
+		// TODO when values turn negative?
+		iTween.RotateTo (sunLight, iTween.Hash ("y", sunLight.transform.rotation.eulerAngles.y+30, "easetype", iTween.EaseType.easeInOutSine));
+		iTween.RotateTo (sunLight, iTween.Hash ("x", sunLight.transform.rotation.eulerAngles.x+10, "easetype", iTween.EaseType.easeInOutSine));
 	}
 }
