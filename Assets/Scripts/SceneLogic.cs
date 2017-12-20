@@ -26,8 +26,8 @@ public class SceneLogic : MonoBehaviour {
 
 		positionIndex = 0;
 
-		presentWaypoint = playerWaypoints [positionIndex];
-		player.transform.position = presentWaypoint.transform.position;
+		// presentWaypoint = playerWaypoints [positionIndex];
+		player.transform.position = playerWaypoints [positionIndex].transform.position;// presentWaypoint.transform.position;
 
 		currentRotation = sunLight.transform.rotation;
 		targetRotation = sunLight.transform.rotation;
@@ -53,6 +53,13 @@ public class SceneLogic : MonoBehaviour {
 		positionIndex--;
 
 		MovePlayer ();
+	}
+
+	public void MoveRestart() {
+
+		positionIndex = 0;
+
+		player.transform.position = playerWaypoints [positionIndex].transform.position;
 	}
 
 	private void MovePlayer() {
@@ -95,4 +102,17 @@ public class SceneLogic : MonoBehaviour {
 		iTween.RotateTo (sunLight, iTween.Hash ("y", sunLight.transform.rotation.eulerAngles.y+30, "easetype", iTween.EaseType.easeInOutSine));
 		iTween.RotateTo (sunLight, iTween.Hash ("x", sunLight.transform.rotation.eulerAngles.x+10, "easetype", iTween.EaseType.easeInOutSine));
 	}
+		
+	public void sunLightForward() {
+
+		iTween.RotateTo (sunLight, iTween.Hash ("y", sunLight.transform.rotation.eulerAngles.y + 30, "easetype", iTween.EaseType.easeInOutSine));
+		iTween.RotateTo (sunLight, iTween.Hash ("x", sunLight.transform.rotation.eulerAngles.x + 10, "easetype", iTween.EaseType.easeInOutSine));
+	}
+
+	public void sunLightBackward() {
+
+		iTween.RotateTo (sunLight, iTween.Hash ("y", sunLight.transform.rotation.eulerAngles.y - 30, "easetype", iTween.EaseType.easeInOutSine));
+		iTween.RotateTo (sunLight, iTween.Hash ("x", sunLight.transform.rotation.eulerAngles.x - 10, "easetype", iTween.EaseType.easeInOutSine));
+	}
+
 }
