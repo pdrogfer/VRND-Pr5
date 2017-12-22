@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WallsColor : MonoBehaviour {
 
-	public Renderer renderer;
+	private Renderer renderer;
 
 	// Use this for initialization
 	void Start () {
@@ -22,8 +22,19 @@ public class WallsColor : MonoBehaviour {
 		renderer = GetComponent<Renderer> ();
 
 		renderer.material.color = Color.yellow;
+	}
 
-		//Color[] palette = new Color[] { Color.yellow };
-		//wallsMaterial.SetColor ("_SpecColor", Color.yellow);// = Color.yellow;
+	public void setWallsGreen() {
+
+		renderer = GetComponent<Renderer> ();
+
+		renderer.material.color = Color.green;
+	}
+
+	public void setWallsWhite() {
+
+		renderer = GetComponent<Renderer> ();
+
+		renderer.material.color = Color.white;
 	}
 }
