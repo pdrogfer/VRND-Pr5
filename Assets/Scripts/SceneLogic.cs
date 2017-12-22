@@ -9,6 +9,10 @@ public class SceneLogic : MonoBehaviour {
 	public GameObject player;
 	public GameObject eventSystem;
 	public GameObject sunLight;
+
+	public GameObject wallsMaterial;
+	public Renderer renderer;
+
 	public GameObject[] panelsUI = new GameObject[6];
 	public GameObject[] playerWaypoints = new GameObject[6];
 	private GameObject presentUI;
@@ -93,14 +97,6 @@ public class SceneLogic : MonoBehaviour {
 		currentRotation = Quaternion.RotateTowards (sunLight.transform.rotation, targetRotation, Time.deltaTime);
 
 		sunLight.transform.rotation = currentRotation;
-	}
-
-	public void toggleSunLight() {
-
-
-		// TODO when values turn negative?
-		iTween.RotateTo (sunLight, iTween.Hash ("y", sunLight.transform.rotation.eulerAngles.y+30, "easetype", iTween.EaseType.easeInOutSine));
-		iTween.RotateTo (sunLight, iTween.Hash ("x", sunLight.transform.rotation.eulerAngles.x+10, "easetype", iTween.EaseType.easeInOutSine));
 	}
 		
 	public void sunLightForward() {
