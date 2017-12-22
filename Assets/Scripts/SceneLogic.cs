@@ -15,7 +15,7 @@ public class SceneLogic : MonoBehaviour {
 	[Header ("Sounds")]
 	public AudioClip ambient_sound_exterior;
 
-	private GvrAudioSource audioSource;
+	private AudioSource audioSource;
 
 	[Header ("UI Panels")]
 	public GameObject[] panelsUI = new GameObject[6];
@@ -43,10 +43,6 @@ public class SceneLogic : MonoBehaviour {
 
 		currentRotation = sunLight.transform.rotation;
 		targetRotation = sunLight.transform.rotation;
-
-		audioSource = gameObject.GetComponent<GvrAudioSource> ();
-		audioSource.clip = ambient_sound_exterior;
-		audioSource.playOnAwake = true;
 	}
 
 	// Update is called once per frame
@@ -122,5 +118,4 @@ public class SceneLogic : MonoBehaviour {
 		iTween.RotateTo (sunLight, iTween.Hash ("y", sunLight.transform.rotation.eulerAngles.y - 30, "easetype", iTween.EaseType.easeInOutSine));
 		iTween.RotateTo (sunLight, iTween.Hash ("x", sunLight.transform.rotation.eulerAngles.x - 10, "easetype", iTween.EaseType.easeInOutSine));
 	}
-
 }
