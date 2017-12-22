@@ -806,7 +806,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 837385997}
-        m_MethodName: setWallsPink
+        m_MethodName: setWallsWhite
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2757,7 +2757,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d30fa1e51c5b47faae5fe7c9e1f3607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderer: {fileID: 0}
 --- !u!1001 &868451587
 Prefab:
   m_ObjectHideFlags: 0
@@ -5828,6 +5827,16 @@ Prefab:
       propertyPath: m_Name
       value: Waypoint_2
       objectReference: {fileID: 0}
+    - target: {fileID: 114444585054485468, guid: a406166d37c95473a90f64c36f55a44f,
+        type: 2}
+      propertyPath: clip_click
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114444585054485468, guid: a406166d37c95473a90f64c36f55a44f,
+        type: 2}
+      propertyPath: ambient_sound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2c5be11b224a7413ba4d2e202b014627, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a406166d37c95473a90f64c36f55a44f, type: 2}
   m_IsPrefabParent: 0

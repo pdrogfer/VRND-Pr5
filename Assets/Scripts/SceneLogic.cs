@@ -9,12 +9,20 @@ public class SceneLogic : MonoBehaviour {
 	public GameObject player;
 	public GameObject eventSystem;
 	public GameObject sunLight;
-
 	public GameObject wallsMaterial;
 	public Renderer renderer;
 
+	[Header ("Sounds")]
+	public AudioClip ambient_sound_exterior;
+
+	private GvrAudioSource audioSource;
+
+	[Header ("UI Panels")]
 	public GameObject[] panelsUI = new GameObject[6];
+
+	[Header ("Waypoints")]
 	public GameObject[] playerWaypoints = new GameObject[6];
+
 	private GameObject presentUI;
 	private GameObject presentWaypoint;
 
@@ -35,6 +43,10 @@ public class SceneLogic : MonoBehaviour {
 
 		currentRotation = sunLight.transform.rotation;
 		targetRotation = sunLight.transform.rotation;
+
+		audioSource = gameObject.GetComponent<GvrAudioSource> ();
+		audioSource.clip = ambient_sound_exterior;
+		audioSource.playOnAwake = true;
 	}
 
 	// Update is called once per frame

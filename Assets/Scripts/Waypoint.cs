@@ -45,7 +45,7 @@ public class Waypoint : MonoBehaviour
 	public float scale_focus_max				= 0.0f;
 
 	[Header("Sounds")]
-	public AudioClip clip_click					= null;				
+	public AudioClip clip_click					= null;
 
 	[Header("Hide Distance")]
 	public float threshold						= 0.125f;
