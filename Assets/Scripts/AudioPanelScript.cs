@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioPanel1 : MonoBehaviour {
-
-	public AudioClip audio_1;
+public class AudioPanelScript : MonoBehaviour {
 
 	private AudioSource audioSource;
 
@@ -12,8 +10,6 @@ public class AudioPanel1 : MonoBehaviour {
 	void Start () {
 
 		audioSource = gameObject.GetComponent<AudioSource> ();
-//		audioSource.clip = audio_1;
-//		audioSource.playOnAwake = false;
 	}
 	
 	// Update is called once per frame
@@ -22,7 +18,7 @@ public class AudioPanel1 : MonoBehaviour {
 	}
 
 
-	public void playAudio1() {
+	public void playAudioClip() {
 
 		audioSource.Play();
 	}
