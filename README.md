@@ -42,9 +42,9 @@ Panel 3 explains how VR provides a more immersive visualization since the user c
 In Panel 4 users can experiment realtime customization changing the color of the walls.
 
 ![panel 5](https://github.com/pdrogfer/VRND-Pr5/blob/master/panel_5.png)
-Panel 5 presents an example of future trend in VR for architecture: architects will be able to design house models from within the VR model itself/
+Panel 5 presents an example of future trend in VR for architecture: architects will be able to design house models from within the VR model itself
 
-##Conclusion
+## Conclusion
 This project has been very interesting and challenging. I learned a lot building this VR experience. 
 
 ## Versions
@@ -53,9 +53,6 @@ This project has been very interesting and challenging. I learned a lot building
 - iTween v2.0.7
 
 **Additional sources**
-*ArchDaily* for information about VR in architecture, and image in panel 4
-*Stambol Studios*, image in panel 1
-*Pixabay*, image in panel 3
-Free assets from UnityStore (furniture and environment)
+*ArchDaily* for information about VR in architecture, and image in panel 4. *Stambol Studios*, image in panel 1. *Pixabay*, image in panel 3. Free assets from UnityStore (furniture and environment)
 _________________________________
 *Pedro Gonzalez, December 2017*
