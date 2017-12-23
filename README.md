@@ -1,6 +1,6 @@
 # OnSale
 Project *Night at the Museum*, from term 2 of Udacity VRND.
-![OnSale screenchot](https://github.com/pdrogfer/VRND-Pr5/blob/master/screenshot.png)
+[OnSale demo video](https://youtu.be/g0uyq66Tdp4 "Demo video")
 ## Introduction
 Project OnSale is an android Cardboard VR app that showcases the possibilities VR brings to architecture and the real state sector. This scene is a tour through 5 stations that present different pieces of information. It is done so *inside* a virtual tour on a project house that is on sale, but not yet built. Stations include background audio, narration, and some interactive effects applied to the house.  
 
