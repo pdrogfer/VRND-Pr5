@@ -31,12 +31,16 @@ User suggested to add a button in the last panel to go directly to the beginning
 ## Breakdown of final piece
 ![panel 1](https://github.com/pdrogfer/VRND-Pr5/blob/master/panel_1.png)
 Panel 1 states the benefits of using VR since it causes a great impression on new users.
+
 ![panel 2](https://github.com/pdrogfer/VRND-Pr5/blob/master/panel_2.png)
 In Panel 2 user can change the sunlight to see how the house looks on the different moments of the day.
+
 ![panel 3](https://github.com/pdrogfer/VRND-Pr5/blob/master/panel_3.png)
 Panel 3 explains how VR provides a more immersive visualization since the user can enter and navigate the house.
+
 ![panel 4](https://github.com/pdrogfer/VRND-Pr5/blob/master/panel_4.png)
 In Panel 4 users can experiment realtime customization changing the color of the walls.
+
 ![panel 5](https://github.com/pdrogfer/VRND-Pr5/blob/master/panel_5.png)
 Panel 5 presents an example of future trend in VR for architecture: architects will be able to design house models from within the VR model itself/
 
